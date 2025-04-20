@@ -1,0 +1,36 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 60px;
+}
+
+form label {
+  font-weight: 500;
+}
+
+button[type="submit"] {
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0d6efdcc;
+}
+
+.alert {
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.alert-info {
+  background-color: #e8f4fd;
+  color: #055160;
+  border: 1px solid #b6e0fe;
+}
